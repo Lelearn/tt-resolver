@@ -5,8 +5,9 @@ import morgan from "morgan";
 
 // TEMP demo MP4 (so your app flow works end-to-end)
 // Swap this with a real TikTok resolver later.
+// Reliable public demo MP4 (Google CDN)
 const DEMO_MP4 =
-  "https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4";
+  "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
 
 const app = express();
 app.use(cors());
