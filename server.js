@@ -6,7 +6,7 @@ import fetch from "node-fetch";
 
 // Fallback demo MP4 so your app never “breaks” while we iterate
 const DEMO_MP4 =
-  "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+  "https://www.tiktok.com/@malachi.bailey2/video/7548295672882089234";
 
 /* -------------------- TikTok resolver helpers -------------------- */
 
