@@ -13,6 +13,11 @@ const app = express();
 app.use(cors());
 app.use(morgan("tiny"));
 
+// 👇 add this right after you define `const app = express();`
+app.get('/', (req, res) => {
+  res.send('TikTok Resolver API is running. Use /resolve?url=<TikTokURL>')
+})
+
 app.get("/healthz", (_req, res) => res.status(200).send("ok"));
 
 /**
